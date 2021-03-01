@@ -8,3 +8,6 @@ Developer guides and shortcuts for the forgetful developer. Created by RCD
 
 ### Git
 [How to fix Git always asking for user credentials](./git/fix-git-always-asking-for-user-credentials.md)
+
+### Codeigniter
+[How to use phpunit to add test to CI3](./ci3/How-to-use-phpunit-to-add-test-to-CI3.md)
