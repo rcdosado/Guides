@@ -11,3 +11,6 @@ Developer guides and shortcuts for the forgetful developer. Created by RCD
 
 ### Codeigniter
 [How to use phpunit to add test to Codeigniter](./webdev/ci.md)
+
+### Javascript
+[How to use jest to unit test javascript](./webdev/js.md)
