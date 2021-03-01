@@ -3,7 +3,7 @@ Javascript Guides
 
 ## Unit Tests
 
-### testing a function
+### Testing a function
 1. `npm init` to create package.json
 2. Install jest `npm i jest --save-dev` or `npm i jest-cli -g` for global install
 3. example of function to test, save as index.js
@@ -93,6 +93,10 @@ Question: how to mock these functions in jest?
    ```
 
 3. create a coverage:
-``` cmd
-jest --coverage
-```
+ ``` cmd
+ jest --coverage
+ ```
+
+
+
+Credits to Ondrej Polesny taken from this [article](https://www.freecodecamp.org/news/how-to-start-unit-testing-javascript/)  
