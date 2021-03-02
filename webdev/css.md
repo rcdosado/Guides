@@ -12,7 +12,7 @@ Requirements:
 
 Steps:
 1. install purgecss `npm i --save-dev purgecss`
-2. you have your html e.g:
+2. you have your html that uses bootstrap or any other bloated css e.g:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -46,9 +46,9 @@ Steps:
 </html>
 
 ```
-3. notice in line 20 you have link pointing to your lean css file. this will be the output css of purgecss.
+3. modify your html files to point to a build location example ./dist/ so it points to the output folder of purgecss.
 
-4. Syntax of CLI command
+4. take not of the syntax of purgeCSS CLI command, and you can add other option if you want
 ```cmd
 purgecss --css <css file> --content <content file to parse css> --output <output-directory>
 ```
@@ -67,12 +67,12 @@ Options:
   -s, --safelist <list>   list of classes that should not be removed
   -h, --help               display help for command
 ```
-5. execute it like this (assuming your've installed purgecss):
+5. execute it like this (assuming you've installed purgecss):
 ```cmd
 node_modules\.bin\purgecss --css bootstrap.min.css --content index.html --output dist/
 ```
-6. notice bootstrap.min.css is same directory with index.html, this command extracts all bootstrap css directives that is been used from index.html then outputs it to dist/ folder 
-7. you can also use NPM script for this e.g
+6. this command executes purgecss to extract bootstrap.min.css css directives that index.html uses and output it to dist/ folder.
+7. after that make sure your lean CSS is pointed by your HTMLs, take not that you can also use NPM script for this e.g
 ```javascript
 {
   "name": "PurgeCSS",
@@ -88,6 +88,6 @@ node_modules\.bin\purgecss --css bootstrap.min.css --content index.html --output
 }
 ```
 
-8. Then execute `npm build` in your terminal
+to use this simply paste to a file named package.json then execute `npm build` in your terminal (assuming you have npm in your path)
 
 See the [documentation](https://purgecss.com/CLI.html) for more

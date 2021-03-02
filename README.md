@@ -15,5 +15,4 @@ Developer guides and shortcuts for the forgetful developer. Created by RCD
 ### Javascript
 [How to use jest to unit test javascript](./webdev/js.md)
 
-### PurgeCSS
 [How to remove unused CSS code to your project](./webdev/css.md)
