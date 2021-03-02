@@ -52,6 +52,21 @@ Steps:
 ```cmd
 purgecss --css <css file> --content <content file to parse css> --output <output-directory>
 ```
+from the docs
+```cmd
+Usage: purgecss --css <css> --content <content> [options]
+
+Options:
+  -con, --content <files>  glob of content files
+  -css, --css <files>      glob of css files
+  -c, --config <path>      path to the configuration file
+  -o, --output <path>      file path directory to write purged css files to
+  -font, --font-face       option to remove unused font-faces
+  -keyframes, --keyframes  option to remove unused keyframes
+  -rejected, --rejected    option to output rejected selectors
+  -s, --safelist <list>   list of classes that should not be removed
+  -h, --help               display help for command
+```
 5. execute it like this (assuming your've installed purgecss):
 ```cmd
 node_modules\.bin\purgecss --css bootstrap.min.css --content index.html --output dist/
