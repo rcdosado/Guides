@@ -1,7 +1,10 @@
 CSS & JS Processing
 =======
 
+
+
 ### How to remove unused CSS code to your project
+
 Requirements:
 * npm
 * terminal
@@ -43,10 +46,11 @@ Steps:
 </html>
 
 ```
-3.notice in line 20 you have link pointing to your lean css file. this will be the output css of purgecss.
-4.Syntax of CLI command
+3. notice in line 20 you have link pointing to your lean css file. this will be the output css of purgecss.
+
+4. Syntax of CLI command
 ```cmd
-purgecss --css <css file> --content <content file to parse css> --out <output-directory>
+purgecss --css <css file> --content <content file to parse css> --output <output-directory>
 ```
 5. execute it like this (assuming your've installed purgecss):
 ```cmd
@@ -68,3 +72,7 @@ node_modules\.bin\purgecss --css bootstrap.min.css --content index.html --output
   }
 }
 ```
+
+8. Then execute `npm build` in your terminal
+
+See the [documentation](https://purgecss.com/CLI.html) for more
