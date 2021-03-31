@@ -51,6 +51,10 @@ Time: 00:00.002, Memory: 18.00 MB
 OK (1 test, 1 assertion)
 ```
 
+
+
+
+
 ### Example case of mocking your CI Model class that uses a database resource
 The scenario, you have a database class:
 
