@@ -46,9 +46,6 @@ then run it in your server, output must print xdebug variables for it to be corr
 6. In your vscode, add configuration (Menu-> run -> add configuration) for your php-debug plugin, so it looks like the following
 ```json
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -68,8 +65,7 @@ then run it in your server, output must print xdebug variables for it to be corr
     ]
 }
 ```
-make sure this json file resides in the directory of your scripts	
+make sure this json file resides in the directory of your scripts
 7. Install Xdebug helper extension for chrome, and make sure its enabled.
 8. Start your webserver.
 9. In VSCode, click a line in your code to enable a breakpoint,  type F5 to execute Xdebug listener, then go to URL where your breakpointed script will be executed. It should break.
-
