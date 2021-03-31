@@ -66,6 +66,7 @@ then run it in your server, output must print xdebug variables for it to be corr
 }
 ```
 make sure this json file resides in the directory of your scripts
+
 7. Install Xdebug helper extension for chrome, and make sure its enabled.
 8. Start your webserver.
 9. In VSCode, click a line in your code to enable a breakpoint,  type F5 to execute Xdebug listener, then go to URL where your breakpointed script will be executed. It should break.
