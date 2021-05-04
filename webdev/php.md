@@ -43,6 +43,7 @@ xdebug_info();
 ?>
 ```
 then run it in your server, during testing, web server listens in port 8000, output must print xdebug variables for it to be correct, variables must be the same with your php.ini.
+
 6. In your vscode, add configuration (Menu-> run -> add configuration) for your php-debug plugin, so it looks like the following
 ```json
 {
